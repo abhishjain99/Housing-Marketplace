@@ -1,6 +1,8 @@
 // feedback-app
 // import Feedback from './feedback-app/Feedback';
-import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+ import 'react-toastify/dist/ReactToastify.css';
 import Explore from './house-marketplace/pages/Explore';
 import Profile from './house-marketplace/pages/Profile';
 import Offers from './house-marketplace/pages/Offers';
@@ -22,7 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Explore />} />
           <Route path="/offers" element={<Offers />} />
-          <Route path="/profile" element={<SignIn />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/forgotpassword" element={<ForgotPassword />} />
@@ -30,6 +32,7 @@ function App() {
         {/* Navbar */}
         <Navbar />
       </Router>
+      <ToastContainer />
     </>
   );
 }

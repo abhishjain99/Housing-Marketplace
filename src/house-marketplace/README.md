@@ -14,4 +14,4 @@ In App.js, uncomment `<house-marketplace />` and it's `import` statement.
 - npm i react-icons
 - npm i firebase
 - npm i react-router-dom
-- 
+- npm i react-toastify
