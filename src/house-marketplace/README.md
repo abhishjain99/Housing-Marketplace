@@ -15,3 +15,40 @@ In App.js, uncomment `<house-marketplace />` and it's `import` statement.
 - npm i firebase
 - npm i react-router-dom
 - npm i react-toastify
+
+# imports
+### from react
+- useState - 
+- useEffect - 
+
+### from react-router-dom
+- BrowserRouter as Router - 
+- Routes - 
+- Route - 
+- useNavigate - 
+- Link - 
+- Navigate - used to redirect (not the hook)
+- Outlet - allows to render child routes / elements (need necessary changes in App.js or wherever the routes are written)
+
+### from firebase
+- <b>from /auth:</b>
+  - getAuth - 
+  - createUserWithEmailAndPassword - 
+  - updateProfile - 
+  - signInWithEmailAndPassword - 
+  - onAuthStateChange - when it goes from login state to logged out state, it gets fired off
+- <b>from /firestore:</b>
+  - setDoc - 
+  - updateDoc - 
+  - doc - 
+  - serverTimestamp - 
+- <b>from ../firebase.config file</b>
+  - db
+
+### from react-toastify
+- toast - 
+- ToastContainer - 
+
+### from assets folder
+- { ReactComponent as ArrowRightIcon } from '../assets/svg/keyboardArrowRightIcon.svg'
+- VisibilityIcon from "../assets/svg/visibilityIcon.svg"
