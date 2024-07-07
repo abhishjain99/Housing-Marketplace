@@ -13,6 +13,7 @@ import ForgotPassword from './house-marketplace/pages/ForgotPassword';
 import Navbar from './house-marketplace/components/Navbar';
 import './house-marketplace/house-marketplace.css';
 import Category from './house-marketplace/pages/Category';
+import CreateListing from './house-marketplace/pages/CreateListing';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/forgotpassword" element={<ForgotPassword />} />
+          <Route path="/createlisting" element={<CreateListing />} />
         </Routes>
         {/* Navbar */}
         <Navbar />
