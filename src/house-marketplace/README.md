@@ -29,6 +29,7 @@ In App.js, uncomment `<house-marketplace />` and it's `import` statement.
 - Link - 
 - Navigate - used to redirect (not the hook)
 - Outlet - allows to render child routes / elements (need necessary changes in App.js or wherever the routes are written)
+- useParam - to get the parameter from link after / (here rent or sale)
 
 ### from firebase
 - <b>from /auth:</b>
@@ -42,6 +43,13 @@ In App.js, uncomment `<house-marketplace />` and it's `import` statement.
   - updateDoc - 
   - doc - 
   - serverTimestamp - 
+  - collection - 
+  - query - 
+  - where - 
+  - orderBy - 
+  - limit - 
+  - startAfter - for pagination
+  - getDocs - 
 - <b>from ../firebase.config file</b>
   - db
 
