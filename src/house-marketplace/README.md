@@ -15,6 +15,7 @@ In App.js, uncomment `<house-marketplace />` and it's `import` statement.
 - npm i firebase
 - npm i react-router-dom
 - npm i react-toastify
+- npm i uuid
 
 # imports
 ### from react
@@ -60,3 +61,6 @@ In App.js, uncomment `<house-marketplace />` and it's `import` statement.
 ### from assets folder
 - { ReactComponent as ArrowRightIcon } from '../assets/svg/keyboardArrowRightIcon.svg'
 - VisibilityIcon from "../assets/svg/visibilityIcon.svg"
+
+### To upload images to firebase data storage
+[https://firebase.google.com/docs/storage/web/upload-files#web_12](https://firebase.google.com/docs/storage/web/upload-files#web_12)
