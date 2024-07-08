@@ -16,6 +16,16 @@ In App.js, uncomment `<house-marketplace />` and it's `import` statement.
 - npm i react-router-dom
 - npm i react-toastify
 - npm i uuid
+- npm i leaflet react-leaflet
+
+  - [Replace with this in your package.json after installing react-leaflet to not get issue while using it in listing](https://stackoverflow.com/questions/67552020/how-to-fix-error-failed-to-compile-node-modules-react-leaflet-core-esm-pat)
+  ```
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+  ```
 
 # imports
 ### from react
