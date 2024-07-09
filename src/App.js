@@ -16,6 +16,7 @@ import Category from './house-marketplace/pages/Category';
 import CreateListing from './house-marketplace/pages/CreateListing';
 import Listing from './house-marketplace/pages/Listing';
 import Contact from './house-marketplace/pages/Contact';
+import EditListing from './house-marketplace/pages/EditListing';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path="/" element={<Explore />} />
           <Route path="/offers" element={<Offers />} />
           <Route path="/createlisting" element={<CreateListing />} />
+          <Route path='/editlisting/:listingId' element={<EditListing />} />
           <Route path='/category/:categoryName' element={<Category />} />
           <Route path='/category/:categoryName/:listingId' element={<Listing />} />
           <Route path='/contact/:landlordId' element={<Contact />} />
